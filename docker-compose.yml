@@ -1,0 +1,6 @@
+version: '3.3'
+services:    
+    srv_mtga_scrapper:
+        build: 
+            context: ./
+            dockerfile: ./srv_mtga_scrapper/Dockerfile
